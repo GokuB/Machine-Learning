@@ -33,6 +33,7 @@ print (df.sort_index(by=['Metascore'], ascending=False).sort_index(by=['Votes'],
 print (df.sort_index(by='Metascore', ascending=False).head(5)) #Sort by Column and return top 5
 print (df.sort_index(by='Metascore', ascending=False).tail(5)) #Sort by Column and return bottom 5
 
+
 #Selecting Data
 print (df['Title']) #Individual Columns selection
 print (df.iloc[:, 1]) #Selecting by position with [:-> rows, 1-> column position]
